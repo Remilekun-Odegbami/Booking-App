@@ -33,17 +33,15 @@ li {
 }
 
 .footer-text {
-    /* text-align: center; */
     font-size: 1.3em;
     color: var(--text);
-
 }
 
 .socials .footer-list-item i {
     font-size: 1em;
     background-color: rgb(227, 224, 224);
     color: var(--one);
-    padding: 10px;
+    padding: 15px;
     margin-right: 10px;
     margin-top: 10px;
     font-weight: bold;

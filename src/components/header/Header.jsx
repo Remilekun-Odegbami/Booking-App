@@ -35,17 +35,17 @@ export const Header = ({type}) => {
     }
 
     const handleSearch = () => {
-        navigate('/hotels', { sate: {destination, date, options}})
+        navigate('/hotels', { state: {destination, date, options}})
     }
 
   return (
     <div className='header'>
         <div className={type === "list" ? "container header-container list-mode" : "container header-container"}>
             <div className="row">
-                <div className="header-list d-flex justify-content-evenly">
+                <div className="header-list d-flex justify-content-between">
                     <div className="header-list-item active">
                         <FontAwesomeIcon icon={faBed} />
-                        <span>Stays</span>
+                        <span><a href="/singlehotel">Stays</a></span>
                     </div>
                     <div className="header-list-item">
                         <FontAwesomeIcon icon={faPlane} />
@@ -80,13 +80,14 @@ export const Header = ({type}) => {
                     </div>
                     <div className="header-search-item">
                         <FontAwesomeIcon icon={faCalendarDays} className="icon" />
-                        <span className="header-search-text" onClick={() => setOpenDate(!openDate)}>{`${format(date[0].startDate, "dd/MM/yyyy")} to ${format(date[0].endDate, "dd/MM/yyyy")}`}</span>
+                        <span className="header-search-text" onClick={() => setOpenDate(!openDate)}>{`${format(date[0].startDate, "MM/dd/yyyy")} to ${format(date[0].endDate, "MM/dd/yyyy")}`}</span>
                         {openDate && <DateRange 
                             editableDateInputs={true}
                             onChange={item => setDate([item.selection])}
                             moveRangeOnFirstSelection={false}
                             ranges={date}
                             className='date'
+                            minDate={new Date()}
                         />}
                     </div>
                     <div className="header-search-item">

@@ -46,11 +46,11 @@ export default function Footer() {
         <div className="footer-colophone">
             <p className="footer-text d-flex justify-content-center">Copyright &copy; 2022 Hotels </p>
                 <ul className='socials d-flex justify-content-center'>
-                    <li className="footer-list-item"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                    <li className="footer-list-item"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li className="footer-list-item"><a href="#"><i className="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li className="footer-list-item"><a href="#"><i className="fa fa-facebook" aria-hidden="true"></i></a></li>
                     <li className="footer-list-item"><a href="#"></a></li>
-                    <li className="footer-list-item"><a href="#"><i class="fa fa-telegram" aria-hidden="true"></i></a></li>
-                    <li className="footer-list-item"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    <li className="footer-list-item"><a href="#"><i className="fa fa-telegram" aria-hidden="true"></i></a></li>
+                    <li className="footer-list-item"><a href="#"><i className="fa fa-instagram" aria-hidden="true"></i></a></li>
                 </ul>                      
             </div>
       </section>

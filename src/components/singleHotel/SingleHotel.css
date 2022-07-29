@@ -1,0 +1,71 @@
+:root {
+    --one: #355c7d;
+    --two: #6c5b7b;
+    --three: #c06c84;
+    --four: #f67280;
+    --five: #f8b195;
+    --text: #eeeeee;
+    --white: #ffffff;
+}
+
+.single-hotel {
+    margin-top: 2%;
+}
+
+.location {
+    font-size: 1.3em;
+}
+
+.distance {
+    color: var(--four);
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.promo {
+    color: var(--two);
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.single-hotel .btn {
+    background-color: var(--one);
+    color: var(--text);
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.hotel-about .info {
+    font-weight: bold;
+}
+
+.hotel-about .more-info {
+    font-weight: 600;
+}
+
+.aside {
+    background-color: #ebf3ff;
+    padding: 20px 15px;
+    border-radius: 5px;
+    height: max-content;
+}
+
+.perfect {
+    color: var(--one);
+    font-weight: bold;
+}
+
+.amount {
+    font-weight: bold;
+}
+
+.amount span{
+    font-weight: normal;
+}
+
+.aside .btn {
+    margin: auto;
+    width: 100%;
+    margin-top: 20px;
+}

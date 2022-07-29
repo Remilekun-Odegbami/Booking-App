@@ -1,0 +1,85 @@
+:root {
+    --one: #355c7d;
+    --two: #6c5b7b;
+    --three: #c06c84;
+    --four: #f67280;
+    --five: #f8b195;
+    --text: #eeeeee;
+    --white: #ffffff;
+}
+
+.items {
+    border: 1px solid var(--two);
+    padding: 15px;
+    padding-right: 30px;
+    margin: 0 0 30px 0;
+}
+
+.items img {
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.num-rating {
+    background: var(--one);
+    color: var(--white);
+    padding: 5px;
+    max-width: fit-content;
+    max-height: 40px;
+}
+
+.text-rating {
+    font-weight: 600;
+    font-size: 1em;
+    margin-top: 5px;
+}
+
+.location, .more-info {
+    font-size: 1em;
+}
+
+.free-taxi {
+    color: var(--text);
+    width: max-content;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 13px;
+}
+
+.includes {
+    color: var(--one);
+    font-size: 0.9em;
+}
+
+.price {
+    font-size: 1.5em;
+    font-weight: bold;
+    position: relative;
+    left: 20px;
+    box-shadow: 1px 2px 10px 1px gray;
+    padding: 3px 10px;
+}
+
+.cancel-later {
+    margin-top: 10px;
+}
+
+.items .btn {
+    padding: 0px 10px;
+    font-size: 0.9em;
+    font-weight: 600;
+    background-color: var(--one);
+    color: var(--text);
+}
+
+@media (max-width: 450px) {
+    .items .items-header {
+        margin: 15px 0;
+        font-size: 1.5em;
+    }
+
+    .items {
+        margin-top: 10%;
+    }
+}

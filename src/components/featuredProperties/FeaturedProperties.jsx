@@ -1,7 +1,5 @@
 import React from 'react'
 import './FeaturedProperties.css'
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
-import {faStar} from "@fortawesome/free-solid-svg-icons";
 
 function FeaturedProperties() {
   return (
@@ -13,10 +11,9 @@ function FeaturedProperties() {
                     <div className="row">
                         <span className="fp-name">Lorem ipsum dolor sit</span>
                         <span className="fp-city">Lagos</span>
-                        <span className="fp-price">Starting from $50</span>
+                        <span className="fp-price">Starting from &#8358;100,000</span>
                         <div className="fp-rating">
-                            <FontAwesomeIcon icon={faStar} className="icon" />
-                            <button className='btn'> 8.9</button>
+                            <button className='btn'> 9.5</button>
                             <span> Excellent</span>
                         </div>
                     </div>
@@ -25,11 +22,10 @@ function FeaturedProperties() {
                     <img src="https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="room" className='img-fluid ' />
                     <div className="row">
                         <span className="fp-name">Lorem ipsum dolor sit</span>
-                        <span className="fp-city">Lagos</span>
-                        <span className="fp-price">Starting from $50</span>
+                        <span className="fp-city">Oyo</span>
+                        <span className="fp-price">Starting from &#8358;50,000</span>
                         <div className="fp-rating">
-                            <FontAwesomeIcon icon={faStar} className="icon" />
-                            <button className='btn'>8.9</button>
+                            <button className='btn'>7.3</button>
                             <span> Excellent</span>
                         </div>
                     </div>
@@ -38,11 +34,10 @@ function FeaturedProperties() {
                     <img src="https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="room" className='img-fluid ' />
                     <div className="row">
                         <span className="fp-name">Lorem ipsum dolor sit</span>
-                        <span className="fp-city">Lagos</span>
-                        <span className="fp-price">Starting from $50</span>
+                        <span className="fp-city">Abuja</span>
+                        <span className="fp-price">Starting from &#8358;70,000</span>
                         <div className="fp-rating">
-                            <FontAwesomeIcon icon={faStar} className="icon" />
-                            <button className='btn'>8.9</button>
+                            <button className='btn'>9.0</button>
                             <span> Excellent</span>
                         </div>
                     </div>
@@ -51,11 +46,10 @@ function FeaturedProperties() {
                     <img src="https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="room" className='img-fluid ' />
                     <div className="row">
                         <span className="fp-name">Lorem ipsum dolor sit</span>
-                        <span className="fp-city">Lagos</span>
-                        <span className="fp-price">Starting from $50</span>
+                        <span className="fp-city">Port Harcourt</span>
+                        <span className="fp-price">Starting from &#8358;50,000</span>
                         <div className="fp-rating">
-                            <FontAwesomeIcon icon={faStar} className="icon" />
-                            <button className='btn'>8.9</button>
+                            <button className='btn'>7.2</button>
                             <span> Excellent</span>
                         </div>
                     </div>
@@ -64,11 +58,10 @@ function FeaturedProperties() {
                     <img src="https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="room" className='img-fluid ' />
                     <div className="row">
                         <span className="fp-name">Lorem ipsum dolor sit</span>
-                        <span className="fp-city">Lagos</span>
-                        <span className="fp-price">Starting from $50</span>
+                        <span className="fp-city">Calabar</span>
+                        <span className="fp-price">Starting from &#8358;40,000</span>
                         <div className="fp-rating">
-                            <FontAwesomeIcon icon={faStar} className="icon" />
-                            <button className='btn'>8.9</button>
+                            <button className='btn'>8.7</button>
                             <span> Excellent</span>
                         </div>
                     </div>
