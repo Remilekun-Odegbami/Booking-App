@@ -1,0 +1,21 @@
+:root {
+    --one: #355c7d;
+    --two: #6c5b7b;
+    --three: #c06c84;
+    --four: #f67280;
+    --five: #f8b195;
+    --text: #eeeeee;
+}
+
+.navbar {
+    background-color: var(--one);
+    justify-content: center;
+}
+
+.navbar a, .navbar-toggler-icon {
+    color: var(--text) !important;
+}
+
+.navbar-nav li a{
+    font-size: 1.2em;
+}

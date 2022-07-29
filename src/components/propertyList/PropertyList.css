@@ -1,0 +1,33 @@
+.prop-list .container{
+    width: 100%;
+    display: flex !important;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.prop-list {
+    flex: 1;
+    overflow: scroll;
+    cursor: pointer;
+}
+
+.prop-list .container img{
+    min-width: 200px;
+    max-width: 200px;
+    min-height: 200px;
+    max-height: 200px;
+    border-radius: 10px;    
+}
+
+.prop-list-titles {
+    margin-top: 10px;
+}
+
+.prop-list-titles>h1 {
+    font-size: 18px;
+} 
+
+.prop-list-titles>p {
+    font-size: 14px;
+    margin-top: -8px;
+} 

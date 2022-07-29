@@ -1,0 +1,35 @@
+:root {
+    --one: #355c7d;
+    --two: #6c5b7b;
+    --three: #c06c84;
+    --four: #f67280;
+    --five: #f8b195;
+    --text: #eeeeee;
+    --white: #ffffff;
+}
+
+span {
+    padding: 3px;
+}
+
+.fp-name {
+    font-weight: 700;
+}
+
+
+.fp-city {
+    font-weight: 400;
+}
+
+.fp-price {
+    font-weight: 500;
+}
+
+.fp-rating .btn {
+    background-color: var(--one);
+    color: var(--text);
+    margin-right: 5px;
+}
+.fp-rating .icon {
+    margin-right: 5px;
+}
