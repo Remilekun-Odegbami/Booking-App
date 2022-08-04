@@ -44,8 +44,9 @@ export const Header = ({type}) => {
             <div className="row">
                 <div className="header-list d-flex justify-content-between">
                     <div className="header-list-item active">
+                    <a href="/singlehotel">
                         <FontAwesomeIcon icon={faBed} />
-                        <span><a href="/singlehotel">Stays</a></span>
+                        <span>Stays</span></a>
                     </div>
                     <div className="header-list-item">
                         <FontAwesomeIcon icon={faPlane} />

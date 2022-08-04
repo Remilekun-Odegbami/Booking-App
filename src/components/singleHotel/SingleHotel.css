@@ -54,14 +54,17 @@
 .perfect {
     color: var(--one);
     font-weight: bold;
+    text-align: center;
 }
 
 .amount {
     font-weight: bold;
+    text-align: center;
 }
 
 .amount span{
     font-weight: normal;
+    font-size: smaller;
 }
 
 .aside .btn {
@@ -69,3 +72,63 @@
     width: 100%;
     margin-top: 20px;
 }
+
+.slider {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.426);
+    z-index: 999;
+    display: flex;
+    align-items: center;
+}
+
+.close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    color: #fff;
+    background-color: var(--one);
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+.arrow {
+    margin: 10px;
+    color: #fff;
+    background-color: var(--one);
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+@media (max-width: 770px) {
+    .close-btn {
+        top: 50px;
+    }
+}
+
+@media (max-width:450px) {
+    .slider img {
+        min-width: 360px;
+        min-height: 450px;
+        object-fit: cover;        
+    }
+
+    .close-btn {
+        font-size: 18px;
+    }
+    
+    .arrow {
+        margin: 0;
+        font-size: 17px;
+        padding: 5px;
+    }
+    
+} 
