@@ -1,6 +1,7 @@
-import "./Navbar.css"
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
-import {faBars} from "@fortawesome/free-solid-svg-icons"
+import "./Navbar.css";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faBars} from "@fortawesome/free-solid-svg-icons";
+import {Link} from "react-router-dom";
 
 export default function Navbar() {
   return (
@@ -9,7 +10,7 @@ export default function Navbar() {
             <nav className="navbar navbar-expand-lg">
                 <div className="container">
                     <div className="logo navbar-brand">
-                        <a href="/"> Hotel </a>
+                        <Link to="/"> Hotel </Link>
                     </div>                       
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
                         <span className="navbar-toggler-icon">

@@ -116,9 +116,7 @@
 
 @media (max-width:450px) {
     .slider img {
-        min-width: 360px;
-        min-height: 450px;
-        object-fit: cover;        
+        min-height: 400px;
     }
 
     .close-btn {
@@ -127,7 +125,7 @@
     
     .arrow {
         margin: 0;
-        font-size: 17px;
+        font-size: 15px;
         padding: 5px;
     }
     

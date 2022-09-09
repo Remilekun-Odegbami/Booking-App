@@ -120,7 +120,7 @@ a:hover {
 .option-counter {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 10px; 
     font-size: 12px;
 }
 
@@ -130,6 +130,7 @@ a:hover {
     .header-container {
         margin-bottom: 35%;
     }
+
     .header-list-item span {
         display: none;
     }
@@ -140,20 +141,38 @@ a:hover {
     .header-search-items {
         top: 315px;
         position: none;
-        height: 160px;
+        height: 170px;
         flex-direction: column;
+        margin-top: 5px;
     }
 
     .header-search-item {
         padding-bottom: 10px;
     }
 
+    .header-search-items .where {
+        margin-top: 5px;
+    }
+
     .date {
-        top: 60px;
+        top: 80px;
         left: 50px;
     }
 
     .options {
-        top: 100px;
+        top: 105px;
     }
+}
+
+
+@media (max-width: 360px) {
+    .header-search-items {
+        top: 360px;
+        margin-top: 5px;
+    }
+
+    .header-text .btn {
+        margin-top: 0px !important;
+    }
+
 }

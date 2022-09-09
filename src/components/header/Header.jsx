@@ -73,10 +73,10 @@ export const Header = ({type}) => {
 
                 { type !== "list" &&
                 <div className="header-search-items container">
-                    <div className="header-search-item">
+                    <div className="header-search-item where">
                         <FontAwesomeIcon icon={faTaxi} className="icon" />
                         <input type="search" name="search" placeholder='Where are you going to?' className='header-search-text'
-                        onChange={e => setDestination(e.target.value)}
+                        onChange={e => setDestination(e.target.value)} required
                          />
                     </div>
                     <div className="header-search-item">
