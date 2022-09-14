@@ -20,13 +20,15 @@ export default function List() {
   const [min, setMin] = useState(undefined)
   const [max, setMax] = useState(undefined)
 
-  const { data, loading, error, refetch } = useFetch(
-    `/api/hotels?city=${destination}&min=${min || 0}&max=${max || 999}`
+  const { data, loading, error, reFetch } = useFetch(
+    `/api/hotels?city=${destination}&min=${min || 0}&max=${ max || 999}`
   );
 
-  const handleClick = () => {
-    refetch();
+  const handleClick = (e) => {
+    e.preventDefault()
+    reFetch();
   }
+
 
 
   return (
@@ -37,7 +39,7 @@ export default function List() {
         <div className="row list-wrapper">
           <div className="list-search col-md-4 col-sm-12">
             <h1 className="list-search-title">Search</h1>
-            <form action="">
+            <form>
               <div className="form-row">
                 <div className="form-group">
                   <label htmlFor="destination">Destination: </label>
@@ -147,6 +149,7 @@ export default function List() {
                >Search</button>
             </form>
           </div>
+          {data ? (
           <div className="list-result col-md-8 col-sm-12">
             {loading ? (
               <Spinner animation="border" variant="dark" />
@@ -157,7 +160,7 @@ export default function List() {
                 ))}
               </>
             }
-          </div>
+          </div> ) : <h1>City not found</h1>}
         </div>
       </div>
     </div>

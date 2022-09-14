@@ -3,11 +3,10 @@ import { Link } from "react-router-dom";
 import "./SearchItem.css";
 
 export default function SearchItem({item}) {
+  const API = "localhost:4000/api"
   return (
     <>
-    {
-      item ? (
-    
+    {  
       <div className="items col-12">
         <div className="col-lg-4 col-md-12">
           <img src={item?.imgs[0]} alt="room" className="img-fluid" />
@@ -53,7 +52,7 @@ export default function SearchItem({item}) {
           </div>
         </div>
       </div>
-      ) : <h1>City not found</h1>
+      
      }
     </>
   );
